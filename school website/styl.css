@@ -1,0 +1,41 @@
+
+
+.wht{
+	color: white;
+}
+
+a{
+	font-weight: bold;
+
+}
+
+form input[type="text"]:focus, form input[type="email"]:focus {
+	-webkit-box-shadow: 0 0 3px #44a9d9 inset;
+	-moz-box-shadow: 0 0 3px #44a9d9 inset;
+	-ms-box-shadow: 0 0 3px #44a9d9 inset;
+	-o-box-shadow: 0 0 3px #44a9d9 inset;
+	box-shadow: 0 0 3px #44a9d9 inset;
+	background-color: #fff;
+	border: 1px solid #44a9d9;
+	outline: none;
+}
+
+.foot{
+background-color: #222222;
+margin-bottom: 0px;
+color: grey;
+font-weight: bold;
+padding: 10px;
+}
+
+.r{
+	float: right;
+}
+
+.img-rounded{
+	background-color: #222222;
+}
+
+.b{
+	
+}
