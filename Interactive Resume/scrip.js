@@ -40,6 +40,14 @@
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
+	
+	//increas opacity of arrow on hover
+	
+	 $(".scrollToTop").hover(function(){
+        $(this).css("opacity", "1.0");
+        }, function(){
+        $(this).css("opacity", "0.5");			// restore when not unhover
+    });
      
      
      
